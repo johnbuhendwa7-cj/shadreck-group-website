@@ -1,0 +1,18 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({channel:'chrome',headless:true});const base='http://127.0.0.1:4173';const checks=[];
+const context=await browser.newContext({viewport:{width:1440,height:900}});const page=await context.newPage();
+await page.route('**/AppleCardsCarousel*.js',r=>r.abort());await page.goto(base+'/work-equipment.html');await page.locator('.gallery-island').scrollIntoViewIfNeeded();await page.waitForTimeout(1500);assert.equal(await page.locator('.work-static img').count(),4);checks.push('Failed carousel import: four authored photographs and enquiry links remain');await context.close();
+const c3=await browser.newContext({viewport:{width:390,height:844}});const p3=await c3.newPage();await p3.route('**/*.mp4',r=>r.abort());await p3.goto(base+'/index.html');await p3.waitForTimeout(2500);assert.equal(await p3.locator('.hero-poster').evaluate(i=>i.complete&&i.naturalWidth>0),true);assert.equal(await p3.getByRole('heading',{level:1,name:/WE MOVE\s+THE GROUND\./}).count(),1);checks.push('Blocked video: supplied poster and complete heading remain visible');await c3.close();
+const c4=await browser.newContext({viewport:{width:390,height:844}});const p4=await c4.newPage();await p4.route('**/*.js',r=>r.abort());await p4.route('https://fonts.**',r=>r.abort());await p4.goto(base+'/about-contact.html');assert.equal(await p4.locator('h1').count(),1);assert.equal(await p4.locator('header .nav-links a').count(),4);assert(await p4.locator('a[href="tel:+27787317014"]').count()>0);checks.push('Blocked scripts/fonts: static title, navigation and contact links remain usable');await c4.close();
+const c5=await browser.newContext({viewport:{width:720,height:450},deviceScaleFactor:2});const p5=await c5.newPage();for(const route of ['index.html','services.html','work-equipment.html','about-contact.html']){await p5.goto(base+'/'+route);assert.equal(await p5.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);}checks.push('200% zoom-equivalent reflow: 720×450 CSS pixels at device scale 2, no overflow on four pages (native browser zoom not automated)');await c5.close();
+const c6=await browser.newContext({viewport:{width:1440,height:900}});const p6=await c6.newPage();await p6.goto('http://127.0.0.1:5173/about-contact.html');await p6.evaluate(async()=>{
+ const old=document.querySelector('form'),form=old.cloneNode(true);old.replaceWith(form);
+ const {bindEnquiry}=await import('/src/components/shadreck/enquiry.js');const {site}=await import('/src/config/site.js');const {services}=await import('/src/data/services.js');
+ bindEnquiry(form,{...site,enquiryEndpoint:'/__test-enquiry'},services);
+});
+let delivery='success';await p6.route('**/__test-enquiry',route=>route.fulfill({status:delivery==='success'?200:503,contentType:'application/json',body:JSON.stringify({delivered:delivery==='success'})}));
+async function fill(){await p6.locator('#name').fill('Local mock test');await p6.locator('#email').fill('test@example.invalid');await p6.locator('#message').fill('Automated mocked test; never sent to a client.');await p6.getByRole('button',{name:'Send enquiry'}).click();}
+await fill();await p6.getByText('Your enquiry was delivered.',{exact:false}).waitFor();delivery='failure';await fill();await p6.getByText('Your enquiry could not be confirmed as delivered.',{exact:false}).waitFor();checks.push('Form UI: mocked 200 delivered=true success and 503 failure, no client messages sent');await c6.close();
+await browser.close();await writeFile('docs/validation/extended-report.json',JSON.stringify({date:new Date().toISOString(),checks},null,2));console.log(checks.join('\n'));

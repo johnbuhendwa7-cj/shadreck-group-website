@@ -1,0 +1,194 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "date": "2026-09-28T09:46:02.040Z",
+  "checks": [
+    "Phone service tap expands without navigation; separate Explore link, direct anchor, keyboard rows, enquiry preselection and back navigation work",
+    "Chrome touch emulation: horizontal work-gallery swipe changes photo; vertical swipe scrolls page; mobile gallery axe scan is clear",
+    "Live portrait/landscape resize keeps one work canvas and no horizontal overflow",
+    "Hero settles once and does not replay after leaving/re-entering",
+    "Rejected autoplay makes one attempt and retains the intended poster",
+    "All six service descriptions and images are open in no-JavaScript HTML",
+    "Reduced-motion pages keep static gallery, title and complete footer word without GPU animation",
+    "All four production routes pass 360/430/768/1024, short laptop, mobile landscape and 200% zoom-equivalent reflow checks; physical devices and native browser zoom were not tested"
+  ],
+  "video": [
+    {
+      "sequence": "settled",
+      "paused": true,
+      "loop": false,
+      "time": 4.105772,
+      "plays": 1
+    }
+  ],
+  "viewports": [
+    {
+      "route": "index.html",
+      "width": 360,
+      "height": 780,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 360,
+      "height": 780,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 360,
+      "height": 780,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 360,
+      "height": 780,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 1366,
+      "height": 650,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 1366,
+      "height": 650,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 1366,
+      "height": 650,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 1366,
+      "height": 650,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 720,
+      "height": 450,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 720,
+      "height": 450,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 720,
+      "height": 450,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 720,
+      "height": 450,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

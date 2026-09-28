@@ -1,0 +1,16 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "checks": [
+    "Looping video remains active beyond five seconds; explicit pause survives scrolling; play resumes",
+    "ScrollFloat and ScrollReveal mount; scroll progress reveals then reverses heading motion",
+    "Services preserve direct hashes, selectors, keyboard navigation and enquiry preselection",
+    "Work carousel automatically moves and pauses on hover and keyboard focus",
+    "Expanded photo uses native modal focus containment, Escape/focus return, restored page scroll and clear axe scan",
+    "Back-to-top action and Dotcom Africa footer link",
+    "Phone touch swipe advances cards, pauses movement and allows vertical page scrolling",
+    "Reduced motion removes automatic video/text/gallery motion and retains usable photo dialogs",
+    "No-JavaScript and blocked-script pages retain six services and four work photos with enquiry links",
+    "Failed video retains poster and readable content"
+  ],
+  "console": []
+}

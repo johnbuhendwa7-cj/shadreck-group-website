@@ -1,0 +1,28 @@
+{
+  "name": "shadreck-group-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "dev": "npm run generate && vite --host 127.0.0.1",
+    "build": "npm run generate && vite build && node scripts/prepare-upload.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/check.mjs",
+    "test:browser": "node scripts/browser-check.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "gsap": "^3.13.0",
+    "@gsap/react": "^2.1.2",
+    "motion": "^12.23.12",
+    "ogl": "^1.0.11"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "@playwright/test": "^1.55.0",
+    "@axe-core/playwright": "^4.10.2"
+  }
+}

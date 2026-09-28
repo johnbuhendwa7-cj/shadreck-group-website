@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "320px: contained hero actions, visible active service selector, direct hash, phone axe scan and back navigation pass",
+    "390px: contained hero actions, visible active service selector, direct hash, phone axe scan and back navigation pass",
+    "Back navigation preserves explicit video pause and permits manual resume"
+  ]
+}

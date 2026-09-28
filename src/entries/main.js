@@ -1,0 +1,23 @@
+import { site } from '../config/site.js';
+import { services } from '../data/services.js';
+import { bindEnquiry } from '../components/shadreck/enquiry.js';
+import { bindHeroVideo } from '../components/shadreck/video-loop.js';
+const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('#primary-navigation');
+toggle.hidden=false;document.documentElement.classList.add('js-menu');
+function setMenu(open,returnFocus=false){nav.classList.toggle('is-open',open);toggle.setAttribute('aria-expanded',String(open));toggle.querySelector('.menu-label').textContent=open?'Close':'Menu';if(returnFocus)toggle.focus();}
+toggle.addEventListener('click',()=>setMenu(toggle.getAttribute('aria-expanded')!=='true'));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle.getAttribute('aria-expanded')==='true')setMenu(false,true);});
+document.addEventListener('click',e=>{if(!e.target.closest('.site-header'))setMenu(false);});
+document.querySelector('.site-header').addEventListener('focusout',e=>{if(e.relatedTarget&&!e.currentTarget.contains(e.relatedTarget))setMenu(false);});
+nav.addEventListener('click',e=>{if(e.target.closest('a'))setMenu(false);});
+matchMedia('(min-width:1025px)').addEventListener('change',()=>setMenu(false));
+const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+document.querySelectorAll('.hero-video').forEach(video=>bindHeroVideo(video,reduced));
+const form=document.querySelector('#enquiry-form');if(form)bindEnquiry(form,site,services);
+const topLink=document.querySelector('.back-to-top');document.documentElement.classList.add('scroll-ui');
+const updateTop=()=>topLink.classList.toggle('is-visible',scrollY>600);window.addEventListener('scroll',updateTop,{passive:true});updateTop();
+topLink.addEventListener('click',e=>{e.preventDefault();window.scrollTo({top:0,behavior:reduced.matches?'instant':'smooth'});document.querySelector('.brand').focus({preventScroll:true});});
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(!e.isIntersecting)return;observer.unobserve(e.target);if(!reduced.matches)e.target.animate([{opacity:.65,transform:'translateY(18px)'},{opacity:1,transform:'translateY(0)'}],{duration:700,easing:'cubic-bezier(.16,1,.3,1)'});}),{threshold:.15});
+document.querySelectorAll('[data-reveal]').forEach(e=>observer.observe(e));
+window.addEventListener('pagehide',()=>observer.disconnect(),{once:true});
+import('./enhancements.jsx').then(m=>m.enhance()).catch(()=>{});

@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-28T10:36:12.815Z",
+  "checks": [
+    "Failed carousel import: four authored photographs and enquiry links remain",
+    "Blocked video: supplied poster and complete heading remain visible",
+    "Blocked scripts/fonts: static title, navigation and contact links remain usable",
+    "200% zoom-equivalent reflow: 720×450 CSS pixels at device scale 2, no overflow on four pages (native browser zoom not automated)",
+    "Form UI: mocked 200 delivered=true success and 503 failure, no client messages sent"
+  ]
+}

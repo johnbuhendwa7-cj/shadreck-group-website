@@ -1,0 +1,54 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "pages": [
+    {
+      "route": "index",
+      "width": 1440,
+      "overflow": false,
+      "fonts": true
+    },
+    {
+      "route": "services",
+      "width": 1440,
+      "overflow": false,
+      "fonts": true
+    },
+    {
+      "route": "work-equipment",
+      "width": 1440,
+      "overflow": false,
+      "fonts": true
+    },
+    {
+      "route": "about-contact",
+      "width": 1440,
+      "overflow": false,
+      "fonts": true
+    },
+    {
+      "route": "index",
+      "width": 390,
+      "overflow": false,
+      "fonts": true
+    },
+    {
+      "route": "services",
+      "width": 390,
+      "overflow": false,
+      "fonts": true
+    },
+    {
+      "route": "work-equipment",
+      "width": 390,
+      "overflow": false,
+      "fonts": true
+    },
+    {
+      "route": "about-contact",
+      "width": 390,
+      "overflow": false,
+      "fonts": true
+    }
+  ],
+  "errors": []
+}

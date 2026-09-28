@@ -1,0 +1,208 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "date": "2026-09-28T10:59:38.757Z",
+  "routes": [
+    {
+      "route": "index.html",
+      "title": "Shadreck Group | Construction & Earthworks in Cape Town",
+      "h1": 1,
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontsLoaded": true,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "title": "Construction & Earthmoving Services | Shadreck Group",
+      "h1": 1,
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontsLoaded": true,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "title": "On Site: Work & Equipment | Shadreck Group",
+      "h1": 1,
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontsLoaded": true,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "title": "About & Contact Shadreck Group | Cape Town",
+      "h1": 1,
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontsLoaded": true,
+      "overflow": false
+    }
+  ],
+  "responsive": [
+    {
+      "route": "index.html",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "index.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "route": "services.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "route": "about-contact.html",
+      "width": 1920,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "index.html",
+      "violations": []
+    },
+    {
+      "route": "services.html",
+      "violations": []
+    },
+    {
+      "route": "work-equipment.html",
+      "violations": []
+    },
+    {
+      "route": "about-contact.html",
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "checks": [
+    "Mobile menu open / Escape / focus return",
+    "Allowlisted prefill and accessible required/contact validation; no live enquiry sent",
+    "Accordion arrow focus and Enter navigation",
+    "Apple carousel next control, photograph dialog and Escape close",
+    "Reduced motion: static title/cards and paused video",
+    "All four pages usable with JavaScript disabled"
+  ]
+}

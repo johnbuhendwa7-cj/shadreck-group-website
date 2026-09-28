@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Video crosses the media endpoint and continues playing from the beginning",
+    "Carousel arrows reflect real scroll boundaries and update after phone resize"
+  ],
+  "video": {
+    "time": 0.198798,
+    "paused": false,
+    "loop": true
+  }
+}

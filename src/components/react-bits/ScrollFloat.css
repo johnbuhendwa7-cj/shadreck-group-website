@@ -1,0 +1,2 @@
+.scroll-float{overflow:clip;padding-bottom:.12em;margin-bottom:-.12em}.scroll-float .sf-line{display:block}.scroll-float .sf-word{display:inline-block;white-space:nowrap}.scroll-float .sf-char{display:inline-block}
+@media(prefers-reduced-motion:reduce){.scroll-float .sf-char{opacity:1!important;transform:none!important}}

@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "47 upload files match dist byte-for-byte; index at root; no source, archives or broken text encoding",
+    "All four pages load through root and both nested upload paths; footer text and absence of pause controls checked"
+  ],
+  "requests": [],
+  "errors": []
+}

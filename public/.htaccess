@@ -1,0 +1,11 @@
+<IfModule mod_dir.c>
+  DirectoryIndex index.html
+</IfModule>
+
+# Stable filenames allow whole-folder replacement through FileZilla.
+# Revalidate cached files so uploaded changes appear on the next visit.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|js|css|webp|png|mp4|txt)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

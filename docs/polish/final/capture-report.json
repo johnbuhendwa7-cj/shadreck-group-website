@@ -1,0 +1,80 @@
+{
+  "stage": "final",
+  "base": "http://127.0.0.1:4173",
+  "date": "2026-09-28T09:42:05.851Z",
+  "pages": [
+    {
+      "route": "index.html",
+      "width": 1440,
+      "height": 900,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "services.html",
+      "width": 1440,
+      "height": 900,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 1440,
+      "height": 900,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "about-contact.html",
+      "width": 1440,
+      "height": 900,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "height": 844,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "services.html",
+      "width": 390,
+      "height": 844,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 390,
+      "height": 844,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "about-contact.html",
+      "width": 390,
+      "height": 844,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    }
+  ],
+  "errors": []
+}

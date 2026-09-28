@@ -1,0 +1,2 @@
+.scroll-reveal .sr-word{display:inline-block}.scroll-reveal{transform-origin:left center;color:var(--brand-navy)}.scroll-reveal+.scroll-reveal{margin-top:1.2em}
+@media(prefers-reduced-motion:reduce){.scroll-reveal,.scroll-reveal .sr-word{transform:none!important;filter:none!important;opacity:1!important}}

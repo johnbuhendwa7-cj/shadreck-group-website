@@ -1,0 +1,83 @@
+{
+  "stage": "baseline",
+  "base": "http://127.0.0.1:5173",
+  "date": "2026-09-28T09:19:20.311Z",
+  "pages": [
+    {
+      "route": "index.html",
+      "width": 1440,
+      "height": 900,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "services.html",
+      "width": 1440,
+      "height": 900,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 1440,
+      "height": 900,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "about-contact.html",
+      "width": 1440,
+      "height": 900,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "height": 844,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "services.html",
+      "width": 390,
+      "height": 844,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "work-equipment.html",
+      "width": 390,
+      "height": 844,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    },
+    {
+      "route": "about-contact.html",
+      "width": 390,
+      "height": 844,
+      "fontDisplay": true,
+      "fontBody": true,
+      "overflow": false,
+      "missingImages": []
+    }
+  ],
+  "errors": [
+    "Recording 1440: browserContext.newPage: Executable doesn't exist at C:\\Users\\IT010\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════╗\n║ Video rendering requires ffmpeg binary.                         ║\n║ Downloading it will not affect any of the system-wide settings. ║\n║ Please run the following command:                               ║\n║                                                                 ║\n║     npx playwright install ffmpeg                               ║\n║                                                                 ║\n║ <3 Playwright Team                                              ║\n╚═════════════════════════════════════════════════════════════════╝",
+    "Recording 390: browserContext.newPage: Executable doesn't exist at C:\\Users\\IT010\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════╗\n║ Video rendering requires ffmpeg binary.                         ║\n║ Downloading it will not affect any of the system-wide settings. ║\n║ Please run the following command:                               ║\n║                                                                 ║\n║     npx playwright install ffmpeg                               ║\n║                                                                 ║\n║ <3 Playwright Team                                              ║\n╚═════════════════════════════════════════════════════════════════╝"
+  ]
+}

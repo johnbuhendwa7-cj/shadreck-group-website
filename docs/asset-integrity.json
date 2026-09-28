@@ -1,0 +1,122 @@
+[
+  {
+    "asset": "brand/shadreck-logo-horizontal.png",
+    "sha256": "2b83ea68b2362f30fa10e94f1dcf63cb6bb0e03c28dec846c0295d17cfce4c39",
+    "matchesSuppliedArchive": true,
+    "bytes": 426811
+  },
+  {
+    "asset": "brand/shadreck-wing-mark.png",
+    "sha256": "5701d60e93cb48888bde1aacb5cd15869835a636b6900f678765b93080de2173",
+    "matchesSuppliedArchive": true,
+    "bytes": 142843
+  },
+  {
+    "asset": "media/01-home/home-hero-earthmoving-poster.webp",
+    "sha256": "9856c64c94853e4bf8b93005f7e5a5caaadb49194534a1c4cb7ef1118fab64a3",
+    "matchesSuppliedArchive": true,
+    "bytes": 417038
+  },
+  {
+    "asset": "media/01-home/home-hero-earthmoving.mp4",
+    "sha256": "4fff86294195e308b80494e6403d28952605851a4e41a7086e61f50b962e4f50",
+    "matchesSuppliedArchive": true,
+    "bytes": 2413936
+  },
+  {
+    "asset": "media/01-home/home-shadreck-branded-truck.webp",
+    "sha256": "233c94fe8cf77c171571c9e784d4e251f4527afed9d06b24e818515b3d964d4d",
+    "matchesSuppliedArchive": true,
+    "bytes": 186456
+  },
+  {
+    "asset": "media/02-services/service-bulk-earthworks-client.webp",
+    "sha256": "88aa10308d6319eaed026c6700805047fdb5de3d719d9b97ddae8299d29d7ee3",
+    "matchesSuppliedArchive": true,
+    "bytes": 458666
+  },
+  {
+    "asset": "media/02-services/service-civil-works-poster.webp",
+    "sha256": "74fdfe6181916b1a8a6994c3391d53e432052a85dc57713abdf05268daf153e4",
+    "matchesSuppliedArchive": true,
+    "bytes": 299864
+  },
+  {
+    "asset": "media/02-services/service-demolition.webp",
+    "sha256": "33596a6ff177e2eca30fceb0bd2f4ee144e0766a91ff5c5453b542eb8dcc45c5",
+    "matchesSuppliedArchive": true,
+    "bytes": 692408
+  },
+  {
+    "asset": "media/02-services/service-machine-hire.webp",
+    "sha256": "ea9989a2a3126a316e969c932154f020ce9b18e3e4dc217aebc29b35f13e1828",
+    "matchesSuppliedArchive": true,
+    "bytes": 179278
+  },
+  {
+    "asset": "media/02-services/service-plot-clearing.webp",
+    "sha256": "7cfe427c83fc202a30e73418deab69595c64673d29e474b22eb316798b39c3d1",
+    "matchesSuppliedArchive": true,
+    "bytes": 1106868
+  },
+  {
+    "asset": "media/02-services/service-sand-stone.webp",
+    "sha256": "28370f19f596b8f18cf1afd066a66f662c388c7fa2c0d5267adec014de0d1dca",
+    "matchesSuppliedArchive": true,
+    "bytes": 565286
+  },
+  {
+    "asset": "media/02-services/services-hero-quarry-poster.webp",
+    "sha256": "a74d4cbf95987903f8a3f3e1317ee426ac1060eb7837b7837d249aa131e82da6",
+    "matchesSuppliedArchive": true,
+    "bytes": 306000
+  },
+  {
+    "asset": "media/02-services/services-hero-quarry.mp4",
+    "sha256": "4c93170a0ee90ac394f066f3963fc19a04c43099e0322c82eafb6eeb82a38e1f",
+    "matchesSuppliedArchive": true,
+    "bytes": 1306687
+  },
+  {
+    "asset": "media/03-work-equipment/work-earthmoving-01.webp",
+    "sha256": "9494b18c6dd3422e7bd66f7a3ca4e5fccbb388db14aec3d4695f4c6a04fec7f5",
+    "matchesSuppliedArchive": true,
+    "bytes": 272130
+  },
+  {
+    "asset": "media/03-work-equipment/work-hero-earthmoving-poster.webp",
+    "sha256": "860e17403768bde78fea7f607371b8b428cfcd4bd48078fc19d707de430edc34",
+    "matchesSuppliedArchive": true,
+    "bytes": 174162
+  },
+  {
+    "asset": "media/03-work-equipment/work-hero-earthmoving.mp4",
+    "sha256": "b47b709604c490d4e8fd08bb84c6c7c0de3d58e86b3c34fc44a69777cfd7a703",
+    "matchesSuppliedArchive": true,
+    "bytes": 1329290
+  },
+  {
+    "asset": "media/03-work-equipment/work-materials-stone.webp",
+    "sha256": "e763b9bb0850c891741d91b72b2908849ed136f80fdb279cfcbec8ce97044eeb",
+    "matchesSuppliedArchive": true,
+    "bytes": 575516
+  },
+  {
+    "asset": "media/03-work-equipment/work-shadreck-truck-01.webp",
+    "sha256": "a0e0342ff0491aa907b694c062eca1bffae3816569644afd3f370ae71e0c07b0",
+    "matchesSuppliedArchive": true,
+    "bytes": 358794
+  },
+  {
+    "asset": "media/04-about-contact/about-hero-excavator-sunset.webp",
+    "sha256": "b2ced18f7b556c1ff987793e2a76aa5de9c86480e1fbd4d69076bd054d38682c",
+    "matchesSuppliedArchive": true,
+    "bytes": 242984
+  },
+  {
+    "asset": "media/05-shared/global-cta-shadreck.webp",
+    "sha256": "f5d5b29b2a049b09b936785060cb2959648513742137c876c512eec9272545c5",
+    "matchesSuppliedArchive": true,
+    "bytes": 205092
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "base": "http://127.0.0.1:4174/websites/shadreck",
+  "viewports": [
+    {
+      "width": 320,
+      "route": "index",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "services",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "work-equipment",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "about-contact",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "index",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "services",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "work-equipment",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "about-contact",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "index",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "services",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "work-equipment",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "about-contact",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "index",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "services",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "work-equipment",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "about-contact",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "index",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "services",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "work-equipment",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "about-contact",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "index",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "services",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "work-equipment",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "route": "about-contact",
+      "overflow": false
+    }
+  ],
+  "checks": [
+    "24 route/viewport combinations: no overflow, full-frame phone hero media, replacement truck and all six service images; four mobile axe scans clear",
+    "All three videos loop through their endpoint and resume on return to the hero without controls",
+    "Automatic carousel movement and hover pause retained without a pause button",
+    "Reduced-motion preference retained"
+  ],
+  "errors": []
+}
