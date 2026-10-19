@@ -117,6 +117,10 @@ input::placeholder,textarea::placeholder{color:#626b77;opacity:1}
 .contact-details a{display:flex;align-items:center;gap:15px;justify-content:space-between;font-size:15px;max-width:380px;min-height:44px;line-height:1.6}
 .contact-details .contact-phone{font-size:27px;font-weight:500;margin-top:18px}
 .contact-details strong{font-size:18px}
+.contact-email-list{display:grid;gap:2px;margin-top:8px}
+.contact-email-list a{padding:7px 0;border-bottom:1px solid var(--divider)}
+.contact-email-list a>span:first-child{display:grid;gap:1px;min-width:0}
+.contact-email-list small{color:var(--copy);font-size:11px;font-style:normal;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
 .contact-information .coverage{padding:29px 0;margin-top:28px;border-top:1px solid var(--divider)}
 .coverage h3{font-size:30px}
 .coverage p{font-size:16px;margin-top:14px;max-width:40ch}

@@ -1,6 +1,7 @@
 export const site = {
   name:'Shadreck Group (Pty) Ltd', contact:'Shadreck Bungeni', phone:'+27 78 731 7014', tel:'tel:+27787317014',
-  email:'shadreck@shadrecktransport.co.za', displayAddress:'14 Worthing Way, Parklands, Cape Town, South Africa',
+  email:'info@shadreckgroup.co.za', directEmail:'Shadreck@shadreckgroup.co.za', accountsEmail:'Accounts@shadreckgroup.co.za',
+  displayAddress:'14 Worthing Way, Parklands, Cape Town, South Africa',
   mapsShareUrl:'https://maps.app.goo.gl/vykuQw2RVAbGdBGT9?g_st=awb', mapsEmbedUrl:'',
   mapVerificationStatus:'discrepancy-pending-confirmation',
   mapResolvedPlace:'Mother City Bricks & Logistics, Groenerivier Plaas, 1, Kalbaskraal, 7302',

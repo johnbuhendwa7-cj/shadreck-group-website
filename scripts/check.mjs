@@ -1,7 +1,7 @@
 import {readFile,readdir,stat,access} from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-import {pages} from '../src/config/site.js';
+import {pages,site} from '../src/config/site.js';
 import {services} from '../src/data/services.js';
 import {validateEnquiry,deliverEnquiry} from '../src/components/shadreck/enquiry.js';
 const htmls=await Promise.all(pages.map(async p=>[p.file,await readFile('dist/'+p.file,'utf8')]));
@@ -21,6 +21,11 @@ const files=[];async function walk(dir){for(const f of await readdir(dir)){const
 assert.equal(files.filter(f=>f.endsWith('.html')).length,4);
 assert(!files.some(f=>/originals|registry|node_modules|\.zip$|\.woff|\.ttf|manifest-source|\.env/.test(f)));
 const serviceHTML=htmls.find(([name])=>name==='services.html')[1];for(const service of services)assert(serviceHTML.includes(`id="${service.slug}"`));
+const allHTML=htmls.map(([,html])=>html).join('\n');
+assert(!allHTML.includes('shadreck@shadrecktransport.co.za'),'Legacy email address removed');
+for(const [,html] of htmls)assert(html.includes(`mailto:${site.email}`),'Main email is linked on every page');
+const contactHTML=htmls.find(([name])=>name==='about-contact.html')[1];
+for(const email of [site.email,site.directEmail,site.accountsEmail])assert(contactHTML.includes(`mailto:${email}`),`Contact page links ${email}`);
 assert.equal(validateEnquiry({name:'',phone:'',email:'',message:''}).length,3);
 assert.equal(validateEnquiry({name:'Test',phone:'0123456789',email:'',message:'Test only'}).length,0);
 await assert.rejects(()=>deliverEnquiry('/mock',{},async()=>({ok:false})));
